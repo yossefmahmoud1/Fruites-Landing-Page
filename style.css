@@ -673,7 +673,8 @@ input[type="email"] {
   border-radius: 8px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
   padding: 1.5rem;
-  width: 100%;
+  width: calc(100% - 2rem); 
+  max-width: 40rem;
   max-width: 40rem;
   transition: all 0.3s ease-in-out;
 }
@@ -774,9 +775,8 @@ footer a:hover {
   }
 
   .fruit-img {
-    width: 100%;
-    height: auto;
-    margin-bottom: 1rem;
+    max-width: 180px; /* تقليل الحجم أكثر للشاشات الصغيرة جدًا */
+    height: 140px;
   }
 
   .fruit-text {
