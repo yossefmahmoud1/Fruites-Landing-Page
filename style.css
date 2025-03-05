@@ -614,9 +614,9 @@ nav {
 
 .tile img {
   width: 100%;
-  aspect-ratio: 3 / 4; /* عرض إلى ارتفاع، عدّل حسب الحاجة */
-  object-fit: cover; /* يملأ الصورة بدون فراغات */
-  object-position: center; /* يضمن عدم قص الأجزاء المهمة */
+  aspect-ratio: 3 / 4; 
+  object-fit: cover;
+  object-position: center; 
   border-radius: 0.5rem;
   display: block;
 }
