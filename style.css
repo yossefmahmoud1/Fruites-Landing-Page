@@ -614,10 +614,13 @@ nav {
 
 .tile img {
   width: 100%;
-  height: 20rem;
-  object-fit: cover;
+  aspect-ratio: 3 / 4; /* عرض إلى ارتفاع، عدّل حسب الحاجة */
+  object-fit: cover; /* يملأ الصورة بدون فراغات */
+  object-position: center; /* يضمن عدم قص الأجزاء المهمة */
   border-radius: 0.5rem;
+  display: block;
 }
+
 
 .tile h4 {
   font-size: 2rem;
@@ -628,9 +631,10 @@ nav {
 }
 
 .tile p {
-  font-size: 1.6rem;
+  font-size: 1.9rem;
   padding: 0;
   margin: 0;
+  font-weight: 50px;
 }
 
 .tile:hover {
@@ -775,7 +779,7 @@ footer a:hover {
   }
 
   .fruit-img {
-    max-width: 180px; /* تقليل الحجم أكثر للشاشات الصغيرة جدًا */
+    max-width: 180px;
     height: 140px;
   }
 
