@@ -68,7 +68,13 @@ body.dark-mode {
 .dark-mode #header {
   background-color: var(--secondary-color);
 }
-
+#nav-bar a:hover {
+  background-color: #ff6347; 
+  color: white; 
+  border-radius: 5px; 
+  padding: 0.5rem 1rem; 
+  transition: all 0.3s ease;
+}
 .header-content-div {
   max-width: 95rem;
   width: auto;
@@ -202,6 +208,7 @@ nav {
   transform: scale(0.9);
 }
 
+
 .section-heading {
   font-size: 3rem;
   font-weight: 600;
@@ -221,7 +228,9 @@ nav {
   max-width: 95rem;
   margin: 0 auto;
 }
-
+#contact h3 {
+  color: white !important; 
+}
 #about {
   background: linear-gradient(135deg, #e6f7ff, #d1e9ff);
   padding: 4rem 0;
