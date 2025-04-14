@@ -22,10 +22,7 @@ A clean and responsive landing page designed to showcase services or products in
 
 Clone the repository:
 
-```bash
-git clone https://github.com/yossefmahmoud1/Landing-Page.git
-## Installation:
-Clone the repository:
+
    ```bash
    git clone https://github.com/yossefmahmoud1/Fruites-Landing-Page.git
 
